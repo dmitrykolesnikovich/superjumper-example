@@ -1,0 +1,27 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>featurea</groupId>
+    <artifactId>superjumper-ios</artifactId>
+    <version>1</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.badlogicgames.gdx</groupId>
+            <artifactId>gdx-backend-robovm</artifactId>
+            <version>1.9.9-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.badlogicgames.gdx</groupId>
+            <artifactId>gdx-platform</artifactId>
+            <version>1.9.9-SNAPSHOT</version>
+            <classifier>natives-ios</classifier>
+        </dependency>
+        <dependency>
+            <groupId>featurea</groupId>
+            <artifactId>superjumper</artifactId>
+            <version>1</version>
+        </dependency>
+    </dependencies>
+
+</project>
